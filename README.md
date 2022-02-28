@@ -1,24 +1,9 @@
-# vue-covid-tracker
+# Covid Tracker (VueJS)
 
-## Project setup
-```
-yarn install
-```
+## Resumo
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+Projeto feito em <strong> VueJS </strong> como forma de estudo para consumo de APIs e familiaridade com o framework.
 
-### Compiles and minifies for production
-```
-yarn build
-```
+![App Preview](./src/assets/app-preview.png)
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Obrigado!
