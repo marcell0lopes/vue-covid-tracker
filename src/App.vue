@@ -28,7 +28,7 @@
     <img :src="loadingImage" alt="Loading image" class="w-24 m-auto" />
   </main>
 
-  <SignatureFooter class="fixed bottom-0 left-0 right-0" />
+  <SignatureFooter class="mt-5" />
 </template>
 
 <script>
