@@ -27,6 +27,8 @@
     <div class="text-gray-500 text-xl mt-10 mb-6">Fetching Data</div>
     <img :src="loadingImage" alt="Loading image" class="w-24 m-auto" />
   </main>
+
+  <SignatureFooter class="absolute bottom-0 left-0 right-0" />
 </template>
 
 <script>
@@ -34,6 +36,7 @@ import AppHeader from '@/components/Header';
 import DataTitle from '@/components/DataTitle';
 import DataCard from '@/components/DataCard';
 import CountrySelect from '@/components/CountrySelect';
+import SignatureFooter from '@/components/Footer';
 
 export default {
   components: {
@@ -41,6 +44,7 @@ export default {
     DataTitle,
     DataCard,
     CountrySelect,
+    SignatureFooter,
   },
 
   data() {
